@@ -27,7 +27,7 @@ const Header = () => {
             initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.3 }}
             className='text-lg md:text-2xl font-ovo text-emerald-400 tracking-wide mb-2'
         >
-            Hi, I'm Oluwashina Emmanuel
+            Hi, I'm Oluwashina Sipho Emmanuel Adenegan
         </motion.h3>
 
         <motion.h1 
