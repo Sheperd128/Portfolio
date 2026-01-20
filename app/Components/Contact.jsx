@@ -40,7 +40,7 @@ const Contact = () => {
                  {/* WhatsApp Direct Link */}
                 <motion.a 
                     whileHover={{ scale: 1.05 }}
-                    href="https://wa.me/27812345678" // REMEMBER TO ADD YOUR NUMBER
+                    href="https://wa.me/27638065865" // REMEMBER TO ADD YOUR NUMBER
                     className='inline-flex items-center gap-3 bg-green-500 text-white px-8 py-4 rounded-full mb-12 font-bold shadow-lg hover:bg-green-600 transition w-full md:w-auto justify-center'
                 >
                     <FaWhatsapp size={24} /> Chat on WhatsApp
