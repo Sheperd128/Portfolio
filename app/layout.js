@@ -14,14 +14,15 @@ const ovo = Ovo({
 });
 
 export const metadata = {
-  title: "Oluwashina Adenegan", // Changed from "Portfolio"
+  title: "Oluwashina Adenegan", 
   description: "Full Stack Engineer & Creative Technologist", 
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className="scroll-smooth">
-      <body className={`${outfit.variable} ${ovo.variable} antialiased leading-8 overflow-x-hidden`}>
+      {/* Add suppressHydrationWarning right here 👇 */}
+      <body suppressHydrationWarning className={`${outfit.variable} ${ovo.variable} antialiased leading-8 overflow-x-hidden`}>
         {children}
       </body>
     </html>

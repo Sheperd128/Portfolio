@@ -51,15 +51,34 @@ const Contact = () => {
                 <form onSubmit={onSubmit} className='flex flex-col gap-6 text-left'>
                     {/* Changed grid-cols-1 for mobile, 2 for desktop */}
                     <div className='grid grid-cols-1 md:grid-cols-2 gap-6'>
-                        <input type="text" placeholder='Your Name' required 
-                            className='p-4 rounded-lg bg-white/5 border border-white/10 outline-none focus:border-emerald-500 text-white'/>
-                        <input type="email" placeholder='Your Email' required 
-                            className='p-4 rounded-lg bg-white/5 border border-white/10 outline-none focus:border-emerald-500 text-white'/>
+                        <input 
+                            suppressHydrationWarning 
+                            type="text" 
+                            placeholder='Your Name' 
+                            required 
+                            className='p-4 rounded-lg bg-white/5 border border-white/10 outline-none focus:border-emerald-500 text-white'
+                        />
+                        <input 
+                            suppressHydrationWarning 
+                            type="email" 
+                            placeholder='Your Email' 
+                            required 
+                            className='p-4 rounded-lg bg-white/5 border border-white/10 outline-none focus:border-emerald-500 text-white'
+                        />
                     </div>
-                    <textarea rows='5' placeholder='Your Message' required
-                        className='p-4 rounded-lg bg-white/5 border border-white/10 outline-none focus:border-emerald-500 text-white resize-none'></textarea>
+                    <textarea 
+                        suppressHydrationWarning 
+                        rows='5' 
+                        placeholder='Your Message' 
+                        required
+                        className='p-4 rounded-lg bg-white/5 border border-white/10 outline-none focus:border-emerald-500 text-white resize-none'
+                    ></textarea>
                     
-                    <button type='submit' className='py-3 px-8 bg-emerald-600 text-white rounded-full font-bold hover:bg-emerald-700 transition w-full md:w-max mx-auto flex items-center justify-center gap-2'>
+                    <button 
+                        suppressHydrationWarning 
+                        type='submit' 
+                        className='py-3 px-8 bg-emerald-600 text-white rounded-full font-bold hover:bg-emerald-700 transition w-full md:w-max mx-auto flex items-center justify-center gap-2'
+                    >
                         Submit Message <FaPaperPlane />
                     </button>
                     <p className='text-center text-green-400 mt-4'>{result}</p>

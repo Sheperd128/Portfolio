@@ -36,12 +36,36 @@ export const serviceData = [
 
 export const workData = [
     {
+        title: 'HustleHub SA',
+        description: 'Secure C2C marketplace featuring SafePay Escrow, KYC identity verification, and dynamic role-based dashboards.',
+        tags: ['PHP', 'MySQL', 'C2C'],
+        link: 'https://hustlehub-sa.kesug.com/?i=1', // Replace '#' with your actual live InfinityFree link
+        bgImage: '/hustlehub-bg.png',
+        comingSoon: false 
+    },
+    {
+        title: 'Neon Peak OS',
+        description: 'Tech-themed interactive murder mystery portal with logic puzzles and suspect dossiers.',
+        tags: ['Next.js', 'Interactive', 'Web Portal'],
+        link: 'https://neon-peak-1scxt8ot6-sheperd128s-projects.vercel.app/',
+        bgImage: '/neon-peak-bg.png',
+        comingSoon: false 
+    },
+    {
+        title: 'Aegis Industries',
+        description: 'Corporate espionage mystery featuring a custom employee UI and immersive puzzle mechanics.',
+        tags: ['React', 'UI/UX', 'Web Game'],
+        link: 'https://murder-mystery-iota-one.vercel.app/',
+        bgImage: '/aegis-bg.png',
+        comingSoon: false 
+    },
+    {
         title: 'Abundant Rain Church',
         description: 'Full-stack platform with admin dashboard for sermons & events.',
         tags: ['MERN Stack', 'Admin Panel', 'CMS'],
         link: 'https://abundantrainvoslooruscampus.org/',
         bgImage: '/church-bg.png',
-        comingSoon: false // LIVE
+        comingSoon: false 
     },
     {
         title: 'QND Eventiques',
@@ -49,7 +73,7 @@ export const workData = [
         tags: ['Frontend', 'React', 'Static'],
         link: 'https://qnd-eventiques.vercel.app/',
         bgImage: '/event-bg.png',
-        comingSoon: false // LIVE
+        comingSoon: false 
     },
     {
         title: 'E-Commerce Platform',
@@ -57,7 +81,7 @@ export const workData = [
         tags: ['MERN', 'E-commerce', 'Redux'],
         link: '', 
         bgImage: '/shop-bg.png',
-        comingSoon: true // PENDING
+        comingSoon: true 
     },
     {
         title: 'Flutter Mobile Shop',
@@ -65,7 +89,7 @@ export const workData = [
         tags: ['Flutter', 'Mobile', 'Dart'],
         link: '', 
         bgImage: '/mobile-bg.png',
-        comingSoon: true // PENDING
+        comingSoon: true 
     },
     {
         title: '2D RPG (Unity)',
@@ -73,7 +97,7 @@ export const workData = [
         tags: ['Unity', 'C#', 'Game Dev'],
         link: '', 
         bgImage: '/game-2d-bg.png',
-        comingSoon: true // PENDING
+        comingSoon: true 
     },
     {
         title: '3D Assassin Prototype',
@@ -81,9 +105,9 @@ export const workData = [
         tags: ['Unreal Engine', 'Blueprints', '3D'],
         link: '', 
         bgImage: '/game-3d-bg.png',
-        comingSoon: true // PENDING
+        comingSoon: true 
     },
-]
+];
 
 export const infoList = [
     { 

@@ -5,7 +5,7 @@ import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa'
 
 const Footer = () => {
   return (
-    <div className='mt-20 bg-gradient-to-t from-emerald-900/20 to-transparent py-10'>
+    <div className='mt-20 bg-linear-to-t from-emerald-900/20 to-transparent py-10'>
       <div className='text-center'>
         
         <h1 className="text-3xl font-bold font-outfit tracking-tighter cursor-pointer mb-6">
